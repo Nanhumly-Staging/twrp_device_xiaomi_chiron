@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/xiaomi/sagit
+DEVICE_PATH := device/xiaomi/chiron
 
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true

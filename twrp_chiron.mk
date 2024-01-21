@@ -15,10 +15,10 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := sagit
+PRODUCT_RELEASE_NAME := chiron
 
-# Inherit from sagit device
-$(call inherit-product, device/xiaomi/sagit/device.mk)
+# Inherit from chiron device
+$(call inherit-product, device/xiaomi/chiron/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -28,8 +28,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.gatekeeper=msm8998
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := sagit
-PRODUCT_NAME := twrp_sagit
+PRODUCT_DEVICE := chiron
+PRODUCT_NAME := twrp_chiron
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 6
+PRODUCT_MODEL := Mi MIX 2
 PRODUCT_MANUFACTURER := Xiaomi

@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_sagit.mk
+    $(LOCAL_DIR)/twrp_chiron.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_sagit-eng
+    twrp_chiron-eng
